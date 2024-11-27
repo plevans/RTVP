@@ -3,3 +3,4 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Real Time Virtual Prototypes
 description: A model exchange format for 3D coupled multi-domain simulation of power semiconductors.
+show_downloads: true
