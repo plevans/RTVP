@@ -16,10 +16,10 @@ A co-simulation tool is proposed that allows the models to stream 3D visualisati
 
 ## Demonstration Videos
 
-[![Thermal RTVP Model Demonstration](https://img.youtube.com/vi/_mSFU1akNzQ/maxresdefault.jpg =x20)](https://youtu.be/_mSFU1akNzQ)
-[![Electrical and Semiconductor Behavioural RTVP Model Demonstration](https://img.youtube.com/vi/9EW95Z0a7q0/maxresdefault.jpg =x20)](https://youtu.be/9EW95Z0a7q0)
-[![Thermal AR Demonstration](https://img.youtube.com/vi/23DIIjWbeLg/maxresdefault.jpg =x20)](https://youtu.be/23DIIjWbeLg)
-[![EM AR Demonstration](https://img.youtube.com/vi/JErHrJPMms0/maxresdefault.jpg =x20)](https://youtu.be/JErHrJPMms0)
+[![Thermal RTVP Model Demonstration](https://img.youtube.com/vi/_mSFU1akNzQ/mqdefault.jpg)](https://youtu.be/_mSFU1akNzQ)
+[![Electrical and Semiconductor Behavioural RTVP Model Demonstration](https://img.youtube.com/vi/9EW95Z0a7q0/mqdefault.jpg)](https://youtu.be/9EW95Z0a7q0)
+[![Thermal AR Demonstration](https://img.youtube.com/vi/23DIIjWbeLg/mqdefault.jpg)](https://youtu.be/23DIIjWbeLg)
+[![EM AR Demonstration](https://img.youtube.com/vi/JErHrJPMms0/mqdefault.jpg)](https://youtu.be/JErHrJPMms0)
 
 ## Related Publications
 - Real Time Virtual Prototypes for Power Electronics, *2022 IEEE Design Methodologies Conference (DMC)* **Pending**
