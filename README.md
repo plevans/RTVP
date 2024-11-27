@@ -16,10 +16,8 @@ A co-simulation tool is proposed that allows the models to stream 3D visualisati
 
 ## Demonstration Videos
 
-![https://github.com/user-attachments/assets/d311352b-3612-4f70-ab06-ef7c25133b83](https://github.com/user-attachments/assets/d311352b-3612-4f70-ab06-ef7c25133b83)
-
-![https://github.com/user-attachments/assets/2da1bd0d-975b-47c9-ad32-54c9fe8ae361](https://github.com/user-attachments/assets/2da1bd0d-975b-47c9-ad32-54c9fe8ae361)
-
+[![Thermal RTVP Model Demonstration](https://img.youtube.com/vi/_mSFU1akNzQ/maxresdefault.jpg)](https://youtu.be/_mSFU1akNzQ)
+[![Electrical and Semiconductor Behavioural RTVP Model Demonstration](https://img.youtube.com/vi/9EW95Z0a7q0/maxresdefault.jpg)](https://youtu.be/9EW95Z0a7q0)
 [![Thermal AR Demonstration](https://img.youtube.com/vi/23DIIjWbeLg/maxresdefault.jpg)](https://youtu.be/23DIIjWbeLg)
 [![EM AR Demonstration](https://img.youtube.com/vi/JErHrJPMms0/maxresdefault.jpg)](https://youtu.be/JErHrJPMms0)
 
