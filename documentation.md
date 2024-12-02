@@ -13,10 +13,11 @@ Then, a more detailed set of instructions will describe the process to edit one 
 The instructions below will talk you through the installation of any required software. These include the following:
 - MATLAB 2024
 - Simulink
-- 
+- SimScape Electrical
 - FMI Kit for Simulink
 - Visual Studio 2022
-- VPPE
+- VPPE (Our own software for virtual prototyping)
+- Co-simulation Tool (Our software for visualising 3D-RTVP FMU Models)
 
 ## Simulating pre-compiled 3D-RTVP models
 
