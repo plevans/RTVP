@@ -1,21 +1,34 @@
 # Documentation for RTVP
 
+## Overview
+
 This document details the steps required to get started with the RTVP model exchange format.
 
 The instructions will describe the process to get the system up and running with two pre-compiled FMU models, running as an FMU block within a Simulink model, and visualising the real-time results in the co-simulation tool. 
 
 Then, a more detailed set of instructions will describe the process to edit one of the examples and re-run the simulation. This example will involve using the in-house virtual prototyping software to change the model geometry, export the reduced-order model matrices and additional 3D RTVP files, pre-process these files using a MATLAB script, and then import them into the FMU template, compile the new FMU, and finally import it into the Simulink model and run the simulation.
 
+## Required Software
+
+The instructions below will talk you through the installation of any required software. These include the following:
+- MATLAB 2024
+- Simulink
+- 
+- FMI Kit for Simulink
+- Visual Studio 2022
+- VPPE
+
 ## Simulating pre-compiled 3D-RTVP models
 
 Two example FMU models have been pre-compiled and included in this repository.
 
-1. Install MATLAB
-    - Install SimScape modules
+1. Install [MATLAB 2024a or higher](https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html)
+    - Install Simulink
+    - Install SimScape modules (in particular, SimScape Electrical)
     
-2. Download RTVP repository
+2. Download [RTVP repository](https://github.com/plevans/RTVP_v1)
 
-3. Install FMI Kit for Simulink
+3. Install [FMI Kit for Simulink](https://github.com/CATIA-Systems/FMIKit-Simulink)
 
 4. Open Simulink model *Thermal_NoDev*
 
