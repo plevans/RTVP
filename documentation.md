@@ -39,3 +39,14 @@ Two example FMU models have been pre-compiled and included in this repository.
 ### Troubleshooting
 
 The process above should work in most cases and not give any errors. However, you may notice that you run into some issues. If this is the case then you can try one of the solutions below. If there is no solution to your problem, please get in touch so that we can address the issue and also add it to this list of issues. 
+
+## Edit Examples - Generating, Compiling and Simulating 3D-RTVP models
+
+Now that you have followed the above instructions to get some pre-existing examples running, we will try to change the model geometry and walk through the process of re-generating the RTVP FMU model and getting it simulated. This process is straight-forward but requires a few more steps and to make sure that certain additional tools are properly installed. 
+
+1. Run the installer for vppe3, the in-house developed virtual prototyping software
+
+2. Download and install Visual Studio 2022 Community [from here](https://visualstudio.microsoft.com/downloads/). This will be required to compile the FMU models.
+    - Make sure to select Desktop Development with C++
+
+3. Open 
