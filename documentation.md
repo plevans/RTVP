@@ -48,7 +48,10 @@ Now that you have followed the above instructions to get some pre-existing examp
 
 2. Download and install Visual Studio 2022 Community [from here](https://visualstudio.microsoft.com/downloads/). This will be required to compile the FMU models.
     - Make sure to select Desktop Development with C++
+    - Also make sure to select C++ CMake Tools for Windows
     - ![VS2022 Installation Screenshot](https://github.com/user-attachments/assets/a742eadd-0c84-492d-a125-b33c750fc517)
 
+3. Open VS2022 and Open Reference-FMUs project
+    - Wait for Visual Studio to set up the CMake project.
 
-3. Open 
+4. 
