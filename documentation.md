@@ -16,6 +16,7 @@ The instructions below will talk you through the installation of any required so
 - SimScape Electrical
 - FMI Kit for Simulink
 - Visual Studio 2022
+- CMake
 - VPPE (Our own software for virtual prototyping)
 - Co-simulation Tool (Our software for visualising 3D-RTVP FMU Models)
 
@@ -65,24 +66,36 @@ Now that you have followed the above instructions to get some pre-existing examp
     - Also make sure to select C++ CMake Tools for Windows
     - ![VS2022 Installation Screenshot](https://github.com/user-attachments/assets/a742eadd-0c84-492d-a125-b33c750fc517)
 
-3. Open VS2022 and Open Reference-FMUs project
-    - Wait for Visual Studio to set up the CMake project.
+3. Set up Reference-FMUs project using CMake and open in Visual Studio 2022
+    - Run cmake-gui from the Start Menu
+    - Under "Where is the source code:" navigate to FMU folder and click Select Folder
+    - Under "Where to build the binaries:" copy the directory above and add "/build" to the end (so it should be "C:/Users/.../RTVP_v1/FMU/build"
+    - Click *Configure*
+    - On the pop-up window asking if a new directory should be created, click *Yes*
+    - In the new pop-up window, specify the generator for this project to be *Visual Studio 17 2022* and click Finish
+    - Wait for the message *Configuring done* and there to be a some red entries in the table
+    - Now click *Generate*
+    - Wait for the message *Generating done*
+    - You can now close this CMake window
+    - In the Windows File Explorer, you can navigate to the newly created FMU/build folder where CMake has generated a Visual Studio project
+    - Double-click the file called *Reference-FMUs.sln" which is of the file type Visual Studio Solution
+    - This should now open Visual Studio 2022 and load the FMU project where you can view and edit the source code for the example FMU models (this will be explained in a later step)
 
-4. Run VPPE virtual prototyping software 
+5. Run VPPE virtual prototyping software 
 
-5. Open Thermal_NoDev project
+6. Open Thermal_NoDev project
 
-6. Click Model View on the top toolbar to show the model
+7. Click Model View on the top toolbar to show the model
     - You may need to click within the pop-up window and press '0' to reset the view
 
-7. Click an item on the left tree to reveal the geometry for it
+8. Click an item on the left tree to reveal the geometry for it
     - Change the co-ordinates slightly
     - Note that the units are metres (so 0.01 is 1mm)
 
-8. Click Run Simulation at the top
+9. Click Run Simulation at the top
     - This will automatically mesh the geometry and also run a time-domain simulation
 
-9. Generate waveforms 
+10. Generate waveforms 
     - Click the Graphical Waveforms tab on the left
     - Click the Add Waveform button at the bottom
     - In the pop-up window:
@@ -95,11 +108,11 @@ Now that you have followed the above instructions to get some pre-existing examp
     - Move the timesteps slider on the bottom left of the window to visualise how the simulation progress
     - If you are happy with the model, proceed to the next step. Otherwise, go back and change the geometry and repeat until you are happy.
 
-10. Export FMU from the top menu bar by selecting Export then Export FMU
+11. Export FMU from the top menu bar by selecting Export then Export FMU
     - This will then open a window to enter a name in the File Name text box. You do not need to create a new folder. The file name you enter will be used to create a folder containing all needed simulation matrices and additional 3D RTVP files. 
     - Now you should have these files generated at this selected location.
 
-11. Run MATLAB pre-processing script (VP2FMU.m)
+12. Run MATLAB pre-processing script (VP2FMU.m)
     - Ensure MATLAB is installed
     - Open MATLAB
     - Ensure FMIKit is installed
@@ -107,28 +120,29 @@ Now that you have followed the above instructions to get some pre-existing examp
     - Run the script
     - This will generate a c_code_to_paste.h file in the same location as the script. The contents of this file will be pasted into the FMU
 
-12. Edit FMU source code and add 3D files
+13. Edit FMU source code and add 3D files
     - Open Reference-FMUs in Visual Studio 2022
-    - Open config.h 
+    - In the Solution Explorer on the right, expand the project called *MDKCircuit_NoDev_3DThermal*
+    - Open config.h (this will be located under *Header Files*
     - Copy the ... lines from the c_code_to_paste.h file to config.h
-    - Open model.c
+    - Open model.c (this will be located under *Source Files*
     - Copy the ... lines from the c_code_to_paste.h file to model.c
     - Finally, within the model.c file, manually change the numerical values for the m, n, r, s, t structural parameters to match the numbers in the c_code_to_paste.h file
     - Now go to the location of the files exported from the Export FMU menu option in VPPE3
     - Copy these files and paste them into the resources folder within the Thermal_NoDev FMU files
 
-13. Compile the FMUs
+14. Compile the FMUs
     - Right-click Reference-FMUs and click Rebuild...
     - This should clean and build the FMUs, and also include the resources that are required for 3D-RTVP co-simulation
     - This will create Thermal_NoDev.fmu within the build/fmus folder
 
-14. Open the Thermal_NoDev Simulink model
+15. Open the Thermal_NoDev Simulink model
 
-15. Reload the FMU block as before, and this time load the newly generated Thermal_NoDev.fmu model 
+16. Reload the FMU block as before, and this time load the newly generated Thermal_NoDev.fmu model 
 
-16. Run the co-simulation tool
+17. Run the co-simulation tool
 
-17. Run the Simulink simulation
+18. Run the Simulink simulation
 
 ### Troubleshooting
 
