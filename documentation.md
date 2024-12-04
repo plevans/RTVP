@@ -67,6 +67,7 @@ Now that you have followed the above instructions to get some pre-existing examp
     - ![VS2022 Installation Screenshot](https://github.com/user-attachments/assets/a742eadd-0c84-492d-a125-b33c750fc517)
 
 3. Set up Reference-FMUs project using CMake and open in Visual Studio 2022
+    - Install [CMake](https://cmake.org/download/)
     - Run cmake-gui from the Start Menu
     - Under "Where is the source code:" navigate to FMU folder and click Select Folder
     - Under "Where to build the binaries:" copy the directory above and add "/build" to the end (so it should be "C:/Users/.../RTVP_v1/FMU/build"
