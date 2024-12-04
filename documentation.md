@@ -133,7 +133,7 @@ Now that you have followed the above instructions to get some pre-existing examp
     - Copy these files and paste them into the resources folder within the Thermal_NoDev FMU files
 
 14. Compile the FMUs
-    - Right-click Reference-FMUs and click Rebuild...
+    - Right-click Reference-FMUs and click *Rebuild Solution*
     - This should clean and build the FMUs, and also include the resources that are required for 3D-RTVP co-simulation
     - This will create Thermal_NoDev.fmu within the build/fmus folder
 
