@@ -4,6 +4,9 @@
 
 A new model exchange format that can capture geometry-based behaviour, in addition to circuit behaviour. The concept extends an existing model exchange standard, the Functional Mock-up Interface (FMI) to incorporate SPICE-like circuit models and geometrical models. Specifically designed with Power Electronics in mind, RTVP models allow complex models to be imported into commercial simulation tools such as Simulink. 
 
+## Pre-release Examples
+Download some precompiled RTVP FMUs from ![DemoModels/FMU](https://github.com/plevans/RTVP/tree/master/DemoModels/FMU) and Simulink simulation models from ![DemoModels/Simulink](https://github.com/plevans/RTVP/tree/master/DemoModels/Simulink)
+
 
 ## How does it work?
 
@@ -20,6 +23,8 @@ A co-simulation tool is proposed that allows the models to stream 3D visualisati
 [![Electrical and Semiconductor Behavioural RTVP Model Demonstration](https://img.youtube.com/vi/9EW95Z0a7q0/mqdefault.jpg)](https://youtu.be/9EW95Z0a7q0)
 [![Thermal AR Demonstration](https://img.youtube.com/vi/23DIIjWbeLg/mqdefault.jpg)](https://youtu.be/23DIIjWbeLg)
 [![EM AR Demonstration](https://img.youtube.com/vi/JErHrJPMms0/mqdefault.jpg)](https://youtu.be/JErHrJPMms0)
+
+
 
 ## Related Publications
 - Real Time Virtual Prototypes for Power Electronics, *2022 IEEE Design Methodologies Conference (DMC)* **Pending**
