@@ -30,7 +30,7 @@ Two example FMU models have been pre-compiled and included in this repository.
     
 2. Download [RTVP repository](https://github.com/plevans/RTVP_v1)
 
-3. Install [FMI Kit for Simulink](https://github.com/CATIA-Systems/FMIKit-Simulink)
+3. Install [FMI Kit for Simulink](https://github.com/CATIA-Systems/FMIKit-Simulink). You can do this by simply running the provided FMIKIT Initialisation Script.
 
 4. Open Simulink model *Thermal_NoDev*
 
