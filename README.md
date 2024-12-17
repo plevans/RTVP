@@ -9,7 +9,7 @@ Download some precompiled RTVP FMUs from [DemoModels/FMU](https://github.com/ple
 
 Also download the [RTVP co-simulation tool installer](https://github.com/plevans/RTVP/releases) to run alongside the Simulink simulation visualise the RTVP-FMU models.
 
-Further documentation is available to view [here](https://github.com/plevans/RTVP/blob/master/documentation.md).
+Further documentation is available to view [here](https://github.com/plevans/RTVP/blob/master/README.md).
 
 ## How does it work?
 
