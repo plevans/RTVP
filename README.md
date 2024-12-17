@@ -28,7 +28,7 @@ Two example FMU models have been pre-compiled and included in this repository.
     - Install Simulink
     - Install SimScape modules (in particular, SimScape Electrical)
     
-2. Download [RTVP repository](https://github.com/plevans/RTVP_v1)
+2. Download [RTVP repository](https://github.com/plevans/RTVP)
 
 3. Install [FMI Kit for Simulink](https://github.com/CATIA-Systems/FMIKit-Simulink). You can do this by simply running the provided FMIKIT Initialisation Script.
 
@@ -70,7 +70,7 @@ Now that you have followed the above instructions to get some pre-existing examp
     - Install [CMake](https://cmake.org/download/)
     - Run cmake-gui from the Start Menu
     - Under "Where is the source code:" navigate to FMU folder and click Select Folder
-    - Under "Where to build the binaries:" copy the directory above and add "/build" to the end (so it should be "C:/Users/.../RTVP_v1/FMU/build"
+    - Under "Where to build the binaries:" copy the directory above and add "/build" to the end (so it should be "C:/Users/.../RTVP/FMU/build"
     - Click *Configure*
     - On the pop-up window asking if a new directory should be created, click *Yes*
     - In the new pop-up window, specify the generator for this project to be *Visual Studio 17 2022* and click Finish
