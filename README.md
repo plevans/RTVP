@@ -17,7 +17,7 @@ We use our own in-house virtual prototyping software to design the model geometr
 
 A co-simulation tool is proposed that allows the models to stream 3D visualisations of their internal state, in real-time, as the simulation progresses.
 
-This work was presented in Grenoble, France at the 2024 IEEE Design Methodologies Conference. Refer to this publication for further details, [Real Time Virtual Prototypes for Power Electronics, *2022 IEEE Design Methodologies Conference (DMC)*](https://ieeexplore.ieee.org/document/10812139).
+This work was presented in Grenoble, France at the 2024 IEEE Design Methodologies Conference. Refer to this publication for further details, [Real Time Virtual Prototypes for Power Electronics](https://ieeexplore.ieee.org/document/10812139).
 
 ![result-thermal-die](https://github.com/user-attachments/assets/dbfc5c7a-6c6e-48b8-8161-073b7285b054)
 
@@ -32,7 +32,7 @@ This work was presented in Grenoble, France at the 2024 IEEE Design Methodologie
 
 
 ## Related Publications
-- [Real Time Virtual Prototypes for Power Electronics, *2022 IEEE Design Methodologies Conference (DMC)*](https://ieeexplore.ieee.org/document/10812139)
+- [Real Time Virtual Prototypes for Power Electronics, *2024 IEEE Design Methodologies Conference (DMC)*](https://ieeexplore.ieee.org/document/10812139)
 - [A Fast and Accurate GaN Power Transistor Model and Its Application for Electric Vehicle, *IEEE Transactions on Vehicular Technology*](https://ieeexplore.ieee.org/document/10347531/)
 - [Datasheet Based SiC MOSFET Models for Accurate Switching Waveform Prediction in Virtual Prototyping Applications, *2023 IEEE Design Methodologies Conference (DMC)*](https://ieeexplore.ieee.org/document/10412452)
 - [Behavioural SiC IGBT Modelling Using Non-Linear Voltage and Current Dependent Capacitances, *2023 IEEE Design Methodologies Conference (DMC)*](https://ieeexplore.ieee.org/document/10412584/)
